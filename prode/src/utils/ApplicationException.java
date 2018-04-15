@@ -18,7 +18,7 @@ public class ApplicationException extends Exception {
 		super(message);
 		SuperLogger.logger.log(Level.ERROR, message);
 	}
-	
+
 	public ApplicationException(String message, Throwable cause)
 	{
 		super(message, cause);

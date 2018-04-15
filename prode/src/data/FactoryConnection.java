@@ -82,7 +82,7 @@ public class FactoryConnection {
 		Properties props = new Properties();
 	    InputStream input = null;
 	    
-	    input = new FileInputStream("configs/config.properties");
+	    input = new FileInputStream("configs/configs.properties");
 	    props.load(input);
 		
 	    return props;
